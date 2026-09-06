@@ -4,23 +4,12 @@
 //    {
 //        static void Main(string[] args)
 //        {
-//            //Q13
-//            string title = "Refactoring";
+//            //Q14
+//            int pages = 464;
 
-//            switch (title)
-//            {
-//                case "Clean Code":
-//                    Console.WriteLine("Great choice!");
-//                    break;
+//            string sizeLabel = pages > 300 ? "Long Book" : "Short Book";
 
-//                case "Refactoring":
-//                    Console.WriteLine("Nice pick!");
-//                    break;
-
-//                default:
-//                    Console.WriteLine("Never heard of it");
-//                    break;
-//            }
+//            Console.WriteLine(sizeLabel);
 //        }
 //    }
 //}
