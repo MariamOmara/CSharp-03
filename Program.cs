@@ -4,9 +4,9 @@
 //    {
 //        static void Main(string[] args)
 //        {
-//            //Q19
+//            //Q20
 //            string[] books =
-// {
+//{
 //    "Clean Code",
 //    "The Pragmatic Programmer",
 //    "Refactoring"
@@ -14,12 +14,12 @@
 
 //            foreach (string book in books)
 //            {
-//                Console.WriteLine(book);
-
-//                if (book == "Refactoring")
+//                if (book == "The Pragmatic Programmer")
 //                {
-//                    break;
+//                    continue;
 //                }
+
+//                Console.WriteLine(book);
 //            }
 //        }
 //    }
