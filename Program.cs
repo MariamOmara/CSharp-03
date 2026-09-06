@@ -4,13 +4,22 @@
 //    {
 //        static void Main(string[] args)
 //        {
-//            //Q12
-//            int pages = 464;
-//            bool isAvailable = true;
+//            //Q13
+//            string title = "Refactoring";
 
-//            if (pages > 300 && isAvailable)
+//            switch (title)
 //            {
-//                Console.WriteLine("You can borrow this book");
+//                case "Clean Code":
+//                    Console.WriteLine("Great choice!");
+//                    break;
+
+//                case "Refactoring":
+//                    Console.WriteLine("Nice pick!");
+//                    break;
+
+//                default:
+//                    Console.WriteLine("Never heard of it");
+//                    break;
 //            }
 //        }
 //    }
