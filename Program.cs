@@ -4,7 +4,7 @@
 //    {
 //        static void Main(string[] args)
 //        {
-//            //Q15
+//            //Q16
 //            string[] books =
 //{
 //    "Clean Code",
@@ -12,9 +12,12 @@
 //    "Refactoring"
 //};
 
-//            for (int i = 0; i < books.Length; i++)
+//            int i = 0;
+
+//            while (i < books.Length)
 //            {
-//                Console.WriteLine($"{i + 1}. {books[i]}");
+//                Console.WriteLine(books[i]);
+//                i++;
 //            }
 //        }
 //    }
