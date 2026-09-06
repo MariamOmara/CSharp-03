@@ -4,10 +4,10 @@
 //    {
 //        static void Main(string[] args)
 //        {
-//            //Q5
-//            int pages = 300;
+//            //Q6
+//            double price = 49.99;
 
-//            double number = pages;
+//            int number = (int)price;
 
 //            Console.WriteLine(number);
 //        }
