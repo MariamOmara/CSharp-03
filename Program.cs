@@ -4,12 +4,18 @@
 //    {
 //        static void Main(string[] args)
 //        {
-//            //Q14
-//            int pages = 464;
+//            //Q15
+//            string[] books =
+//{
+//    "Clean Code",
+//    "The Pragmatic Programmer",
+//    "Refactoring"
+//};
 
-//            string sizeLabel = pages > 300 ? "Long Book" : "Short Book";
-
-//            Console.WriteLine(sizeLabel);
+//            for (int i = 0; i < books.Length; i++)
+//            {
+//                Console.WriteLine($"{i + 1}. {books[i]}");
+//            }
 //        }
 //    }
 //}
