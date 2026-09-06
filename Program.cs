@@ -4,21 +4,15 @@
 //    {
 //        static void Main(string[] args)
 //        {
-//            //Q16
-//            string[] books =
-//{
-//    "Clean Code",
-//    "The Pragmatic Programmer",
-//    "Refactoring"
-//};
-
+//            //Q17
 //            int i = 0;
 
-//            while (i < books.Length)
+//            do
 //            {
-//                Console.WriteLine(books[i]);
+//                Console.WriteLine("Checking book...");
 //                i++;
 //            }
+//            while (i < 3);
 //        }
 //    }
 //}
