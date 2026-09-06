@@ -4,12 +4,12 @@
 //    {
 //        static void Main(string[] args)
 //        {
-//            //Q6
-//            double price = 49.99;
+//            //Q7
+//            string pagesText = "464";
 
-//            int number = (int)price;
+//            int pages = Convert.ToInt32(pagesText);
 
-//            Console.WriteLine(number);
+//            Console.WriteLine(pages);
 //        }
 //    }
 //}
