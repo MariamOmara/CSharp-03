@@ -4,13 +4,15 @@
 //    {
 //        static void Main(string[] args)
 //        {
-//            //Q9
-//            int pages = 464;
+//            //Q10
+//            int copies = 100;
 
-//            string text = pages.ToString();
+//            object obj = copies;
 
-//            Console.WriteLine(text);
-//            Console.WriteLine(text.GetType());
+//            int number = (int)obj;
+
+//            Console.WriteLine(copies);
+//            Console.WriteLine(number);
 //        }
 //    }
 //}
