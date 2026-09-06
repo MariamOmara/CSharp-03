@@ -4,23 +4,25 @@
 //    {
 //        static void Main(string[] args)
 //        {
-//            //Q20
+//            //Q21
 //            string[] books =
-//{
+// {
 //    "Clean Code",
 //    "The Pragmatic Programmer",
 //    "Refactoring"
 //};
 
-//            foreach (string book in books)
+//            void PrintFirstBook()
 //            {
-//                if (book == "The Pragmatic Programmer")
+//                if (books.Length == 0)
 //                {
-//                    continue;
+//                    return;
 //                }
 
-//                Console.WriteLine(book);
+//                Console.WriteLine(books[0]);
 //            }
+
+//            PrintFirstBook();
 //        }
 //    }
 //}
