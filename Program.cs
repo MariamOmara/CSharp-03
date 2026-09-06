@@ -4,25 +4,13 @@
 //    {
 //        static void Main(string[] args)
 //        {
-//            //Q8
-//            string yearText = "2023";
+//            //Q9
+//            int pages = 464;
 
-//            int year = int.Parse(yearText);
+//            string text = pages.ToString();
 
-//            Console.WriteLine(year);
-
-//            string badText = "abc";
-
-//            int result;
-
-//            if (int.TryParse(badText, out result))
-//            {
-//                Console.WriteLine(result);
-//            }
-//            else
-//            {
-//                Console.WriteLine("Invalid number");
-//            }
+//            Console.WriteLine(text);
+//            Console.WriteLine(text.GetType());
 //        }
 //    }
 //}
