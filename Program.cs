@@ -4,15 +4,17 @@
 //    {
 //        static void Main(string[] args)
 //        {
-//            //Q10
-//            int copies = 100;
+//            //Q11
+//            int pages = 464;
 
-//            object obj = copies;
-
-//            int number = (int)obj;
-
-//            Console.WriteLine(copies);
-//            Console.WriteLine(number);
+//            if (pages > 300)
+//            {
+//                Console.WriteLine("Long Book");
+//            }
+//            else
+//            {
+//                Console.WriteLine("Short Book");
+//            }
 //        }
 //    }
 //}
