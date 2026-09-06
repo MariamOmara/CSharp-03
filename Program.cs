@@ -4,12 +4,25 @@
 //    {
 //        static void Main(string[] args)
 //        {
-//            //Q7
-//            string pagesText = "464";
+//            //Q8
+//            string yearText = "2023";
 
-//            int pages = Convert.ToInt32(pagesText);
+//            int year = int.Parse(yearText);
 
-//            Console.WriteLine(pages);
+//            Console.WriteLine(year);
+
+//            string badText = "abc";
+
+//            int result;
+
+//            if (int.TryParse(badText, out result))
+//            {
+//                Console.WriteLine(result);
+//            }
+//            else
+//            {
+//                Console.WriteLine("Invalid number");
+//            }
 //        }
 //    }
 //}
