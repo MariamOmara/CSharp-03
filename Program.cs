@@ -4,12 +4,13 @@
 //    {
 //        static void Main(string[] args)
 //        {
-//            //Q1
-//            Book book = new Book();
+//            //Q2
+//            Book B1 = new Book();
 
-//            object obj = book;
-
-//            Console.WriteLine(obj);
+//            Console.WriteLine(B1.ToString());
+//            Console.WriteLine(B1.Equals(B1));
+//            Console.WriteLine(B1.GetHashCode());
+//            Console.WriteLine(B1.GetType());
 //        }
 //    }
 //}
