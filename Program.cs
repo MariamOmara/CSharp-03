@@ -4,16 +4,13 @@
 //    {
 //        static void Main(string[] args)
 //        {
-//            //Q11
+//            //Q12
 //            int pages = 464;
+//            bool isAvailable = true;
 
-//            if (pages > 300)
+//            if (pages > 300 && isAvailable)
 //            {
-//                Console.WriteLine("Long Book");
-//            }
-//            else
-//            {
-//                Console.WriteLine("Short Book");
+//                Console.WriteLine("You can borrow this book");
 //            }
 //        }
 //    }
