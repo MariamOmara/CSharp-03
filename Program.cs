@@ -4,22 +4,12 @@
 //    {
 //        static void Main(string[] args)
 //        {
-//            //Q4
-//            try
-//            {
-//                int x = 10;
-//                int y = 0;
+//            //Q5
+//            int pages = 300;
 
-//                int result = x / y;
-//            }
-//            catch (DivideByZeroException)
-//            {
-//                Console.WriteLine("Cannot divide by zero");
-//            }
-//            finally
-//            {
-//                Console.WriteLine("Done");
-//            }
+//            double number = pages;
+
+//            Console.WriteLine(number);
 //        }
 //    }
 //}
